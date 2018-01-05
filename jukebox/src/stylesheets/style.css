@@ -1,0 +1,9 @@
+body {background-color: #234}
+
+#music-bars span {
+    background-color: #fff;
+    display: block;
+    width: 1px;
+    float: left;
+    margin-right: 2px;
+}

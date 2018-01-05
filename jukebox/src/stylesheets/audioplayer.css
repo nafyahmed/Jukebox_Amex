@@ -1,0 +1,213 @@
+
+
+h1 {
+    font-size: 20px;
+    color:white;
+}
+
+ol {
+    list-style-type: none;
+    padding: 0;
+    background:white;
+    margin: 0 0;
+    width: 100%;
+    display: inline-block;
+
+}
+
+li {
+    color: #2C3238;
+    width: 96%;
+    padding: 15px 2%;
+    margin: 0;
+    text-align: left;
+    border-top: 1px solid #D5DDE4;
+}
+
+li span {
+    float: right;
+    color: #2C3238;
+}
+
+li.current {
+    background: #ffd7d8;
+}
+
+button {
+    margin:10px;
+    padding:10px 35px;
+    border: none;
+    border-radius: 5px;
+    background: white;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:active {
+    background-color: grey;
+}
+
+.songName{
+    height: 30px;
+}
+
+#theSong{
+    width: 20%;
+}
+
+#theSongs{
+    width: 20%;
+    float:right;
+    margin-right: 100px;
+    background-color: white;
+}
+
+#myAudio{
+    width: 700px;
+    margin-left: 15%;
+}
+
+#btnLogout{
+    position:relative;
+    top: -10px;
+}
+
+#particles-js{
+    height: 100px;
+}
+
+.delete_button:hover{
+    background-color: #002663;
+    color: white;
+}
+
+#song_list{
+    background-color: black;
+}
+
+.song_value{
+    background-color: white;
+    border-style: solid;
+    border-color: #002663;
+    width: 100%;
+    height: 80px;
+    margin-bottom: 1%;
+}
+
+.queueContainer{
+    height:400px;
+}
+
+#songSample {
+    display: inline-block;
+    position:absolute;
+    width: 900px;
+    top: 85%;
+    left:63%;
+    -ms-transform:translate(-50%,-50%);
+    -webkit-transform:translate(-50%,-50%);
+    transform:translate(-50%,-50%);
+}
+
+/* Icons */
+
+a {
+    clear: both;
+    background: white;
+    border-radius:4px;
+    text-align:center;
+    text-decoration:none;
+    font-size: 10px;
+    position: relative;
+    display: inline-block;
+    width:80px;
+    height:50px;
+    padding-top:15px;
+    margin:0 2px;
+    margin-right: 10px;
+    -o-transition:all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+    color: black;
+
+}
+
+a:hover {
+    background: black;
+    color: white;
+}
+
+/* pop-up text */
+
+a span {
+    color:white;
+    position:absolute;
+    font-family:sans-serif;
+    bottom:0;
+    left:-25px;
+    right:-25px;
+    padding:5px 7px;
+    z-index:-1;
+    font-size:10px;
+    border-radius:2px;
+    background-color: black;
+    visibility:hidden;
+    opacity:0;
+    -o-transition:all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -webkit-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -moz-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+/* pop-up text arrow */
+
+a span:before {
+    content:'';
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #fff;
+    position:absolute;
+    bottom:-5px;
+    left:40px;
+}
+
+/* text pops up when icon is in hover state */
+
+a:hover span {
+    bottom:50px;
+    visibility:visible;
+    opacity:1;
+    color: white;
+}
+
+/* font awesome icons */
+
+a:nth-of-type(1):before {
+    content: 'American Rejects'
+}
+a:nth-of-type(2):before {
+    content:'The Bravery';
+}
+a:nth-of-type(3):before {
+    content:'Counting Crows';
+}
+a:nth-of-type(4):before {
+    content:'Smashmouth';
+}
+a:nth-of-type(5):before {
+    content:'Foo Fighters';
+}
+a:nth-of-type(6):before {
+    content:'Lukas Graham';
+}
+#title{
+    color: white;
+    text-align: center;
+    position:relative;
+    top: 50px;
+}

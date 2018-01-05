@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/header.css">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/jukebox.css">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/login.css">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/audioplayer.css">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/test.css">
+
+    <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+    <title>Amex Jukebox</title>
+</head>
+
+<body style="background-color:#002663;">
+<div id="status"></div>
+<script type="text/javascript">
+    const config = {
+        apiKey: "AIzaSyDAF-q0VdJIDzTwBbGX3RW07IPiDMmfaKg",
+        authDomain: "jukeb-db81f.firebaseapp.com",
+        databaseURL: "https://jukeb-db81f.firebaseio.com",
+        projectId: "jukeb-db81f",
+        storageBucket: "jukeb-db81f.appspot.com",
+        messagingSenderId: "364417049455"
+    };
+
+    firebase.initializeApp(config);
+</script>
+<div id="app"></div>
+<div id="audioPlayer"></div>
+<!--<div>
+    <div class="wrapper" style="float:left; margin-left: 0;">
+        Song Stats
+        <div class="tooltip"></div>
+    </div>
+</div>-->
+
+<script src="/app/bundle.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="/js/handler.js"></script>
+
+</body>
+</html>
